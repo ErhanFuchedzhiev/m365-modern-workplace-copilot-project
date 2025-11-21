@@ -2,7 +2,7 @@
 
 In my Contoso Ltd tenant, I use a cloud-only identity model, and I created the following accounts to support my Modern Workplace deployment.
 
-## 1. Current user directory
+## 1. Current User Directory
 
 | Display Name          | UPN                                                                       | Account Type | Notes                                                           |
 | --------------------- | ------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------- |
@@ -23,8 +23,8 @@ This screenshot shows:
 - No on-premises sync
 - Only admin@contoso.cloud has Global Admin permissions
 
-## 2. Example Rewrite of Admin Roles Section
- How I Manage Admin Roles
+## 2. Admin Roles & Privileged Access Management
+How I Manage Admin Roles
 
 Only admin@contoso.cloud has Global Administrator access in my tenant.
 I use this account exclusively for elevated operations and I never sign in with it for daily work.
@@ -32,8 +32,7 @@ I use this account exclusively for elevated operations and I never sign in with 
 My next step is to move this role into Privileged Identity Management (PIM) so it becomes eligible instead of permanent.
 This helps me follow the Zero-Trust model and Least Privilege principles.
 
-## 3.Example Rewrite of Conditional Access
-My Conditional Access Baseline
+## 3.Conditional Access Baseline
 
 To secure identity in my tenant, I built a small but strong set of Conditional Access policies.
 Before creating my own policies, Microsoft automatically deployed several baseline Conditional Access policies when I disabled Security Defaults. These included:
