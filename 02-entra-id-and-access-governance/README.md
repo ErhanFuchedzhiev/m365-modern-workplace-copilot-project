@@ -1,6 +1,6 @@
 # Identity Setup in My Tenant
 
-In my Contoso Ltd tenant, I use a cloud-only identity model, and I created the following accounts to support my Modern Workplace deployment.
+In my Contoso Ltd tenant, I implemented a cloud-only identity model designed for a secure and scalable Modern Workplace foundation. This section documents the identity structure, admin role governance, and Conditional Access policies that establish my Zero Trust strategy.
 
 ## 1. Current User Directory
 
