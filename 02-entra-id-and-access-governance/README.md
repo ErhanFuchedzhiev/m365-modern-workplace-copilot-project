@@ -1,4 +1,4 @@
-1. Identity Setup in My Tenant
+## Identity Setup in My Tenant
 
 In my Contoso Ltd tenant, I use a cloud-only identity model, and I created the following accounts to support my Modern Workplace deployment.
 
