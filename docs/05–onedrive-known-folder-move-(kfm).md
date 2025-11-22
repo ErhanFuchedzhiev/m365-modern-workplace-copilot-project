@@ -1,6 +1,6 @@
 # 05 – OneDrive Known Folder Move (KFM)
 
-In my Modern Workplace environment, I use OneDrive Known Folder Move (KFM) to make sure user data is always synced, protected, and available across devices.  
+In my Modern Workplace setup, I use OneDrive Known Folder Move (KFM) to automatically protect user data by redirecting Desktop, Documents, and Pictures into OneDrive.
 By redirecting Desktop, Documents, and Pictures to OneDrive, I remove the risk of users saving important files only on their local machines.
 
 ---
