@@ -1,4 +1,4 @@
-# 03. Configuration Profiles
+# 03. Windows Security Hardening
 
 In my Modern Workplace environment, I use Intune configuration profiles to enforce security, productivity, and governance settings across all Windows devices.  
 These profiles help me apply Zero Trust principles and ensure every device follows my security baselines.
