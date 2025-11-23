@@ -27,7 +27,7 @@ The **Company Portal** app is required for self-service app installation, device
 
 **Intune Admin Center → Apps → Windows Apps → + Create → Microsoft Store app (new)**
 
-![Validation Passed](../images/52.app-information.png)
+![Validation Passed](../images/51.deploying-company-portal.png)
 
 
 ---
@@ -40,7 +40,7 @@ The **Company Portal** app is required for self-service app installation, device
 - **Install behavior:** User  
 - **Privacy URL:** <https://learn.microsoft.com/mem/intune/user-help/use-the-company-portal-app>  
 
-![Validation Passed](../images/53.assignments.png)
+![Validation Passed](../images/52.app-information.png)
 
 ---
 
@@ -50,13 +50,15 @@ Assign to:
 
 - **Required → Autopilot Devices**
 
-![Validation Passed](../images/54.deployed-company-portal.png)
+![Validation Passed](../images/53.assignments.png)
 
 ---
 
 ## Step 4 — Deployment Completed
 
 The Company Portal app is now successfully deployed.
+
+![Validation Passed](../images/54.deployed-company-portal.png)
 
 ---
 
