@@ -16,7 +16,7 @@ In Intune:
 - **Name:** *Windows – Device Restriction Policies*  
 - **Description:**  I use this profile to restrict USB, block copy/paste to external sources, lock Control Panel, and manage elevation/local admin behavior.
 
-![Validation Passed](../images/42.Windows–Device-Restriction-Policies.pn)
+![Validation Passed](../images/42.Windows–Device-Restriction-Policies.png)
 
 ---
 
