@@ -27,7 +27,8 @@ The **Company Portal** app is required for self-service app installation, device
 
 **Intune Admin Center → Apps → Windows Apps → + Create → Microsoft Store app (new)**
 
-![company-portal-step1](../screenshots/52.app-information.png)
+![Validation Passed](../images/52.app-information.png)
+
 
 ---
 
@@ -39,7 +40,7 @@ The **Company Portal** app is required for self-service app installation, device
 - **Install behavior:** User  
 - **Privacy URL:** <https://learn.microsoft.com/mem/intune/user-help/use-the-company-portal-app>  
 
-![company-portal-info](../screenshots/53.assignments.png)
+![Validation Passed](../images/53.assignments.png)
 
 ---
 
@@ -49,7 +50,7 @@ Assign to:
 
 - **Required → Autopilot Devices**
 
-![company-portal-assignments](../screenshots/54.deployed-company-portal.png)
+![Validation Passed](../images/54.deployed-company-portal.png)
 
 ---
 
@@ -69,7 +70,7 @@ Microsoft 365 Apps provide Outlook, Word, Excel, OneDrive, Teams, and the essent
 
 **Apps → Windows Apps → + Create → Windows 10 and later → Microsoft 365 Apps**
 
-![m365-step1](../screenshots/46.m365-apps-deploying.png)
+![Validation Passed](../images/46.m365-apps-deploying.png)
 
 ---
 
@@ -79,7 +80,7 @@ Microsoft 365 Apps provide Outlook, Word, Excel, OneDrive, Teams, and the essent
 - **Category:** Productivity  
 - Leave logo and metadata as default (Microsoft-provided).
 
-![m365-info](../screenshots/47.app-information.png)
+![Validation Passed](../images/47.app-information.png)
 
 ---
 
@@ -118,7 +119,7 @@ Then I configured:
 | **Install background service for Microsoft Search in Bing** | Yes |
 | **Languages**               | No languages selected (OS default)|
 
-![m365-config](../screenshots/48.configure-app-suite.png)
+![Validation Passed](../images/48.configure-app-suite.png)
 
 This ensures all selected Office apps are installed in a consistent, evergreen way.
 
@@ -130,13 +131,13 @@ Assign to:
 
 - **Required → Autopilot Devices**
 
-![m365-assignments](../screenshots/49.assignments.png)
+![Validation Passed](../images/49.assignments.png)
 
 ---
 
 ## Step 5 — Deployment Completed
 
-![m365-deployed](../screenshots/50.deployed-m365-apps.png)
+![Validation Passed](../images/50.deployed-m365-apps.png)
 
 Microsoft 365 Apps are now deployed to all devices.
 
@@ -146,7 +147,7 @@ Microsoft 365 Apps are now deployed to all devices.
 
 Edge was deployed earlier in the Browser Policies article and appears in the Windows Apps list.
 
-![edge-deployed](../screenshots/51.deploying-company-portal.png)
+![Validation Passed](../images/51.deploying-company-portal.png)
 
 ---
 
