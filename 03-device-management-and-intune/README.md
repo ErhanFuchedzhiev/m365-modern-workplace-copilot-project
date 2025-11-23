@@ -159,15 +159,15 @@ Protects devices from data leakage and unauthorized configuration changes.
 
 With all steps completed, my Modern Workplace baseline now includes:
 
-✔ Device enrollment via Company Portal  
-✔ Autopilot provisioning  
-✔ Compliance policies  
-✔ OS security hardening  
-✔ Attack Surface Reduction  
-✔ OneDrive automation  
-✔ Update rings  
-✔ Edge browser hardening  
-✔ Device restriction policies  
+- Device enrollment via Company Portal
+- Autopilot provisioning  
+- Compliance policies  
+- OS security hardening  
+- Attack Surface Reduction  
+- OneDrive automation  
+- Update rings  
+- Edge browser hardening  
+- Device restriction policies  
 
 This creates a **secure, cloud-managed, automated, and scalable Windows management environment** aligned with Microsoft 365 best practices.
 
