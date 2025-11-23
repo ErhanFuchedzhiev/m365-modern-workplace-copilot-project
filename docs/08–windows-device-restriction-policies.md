@@ -20,7 +20,7 @@ In Intune:
 
 ---
 
-## 🔧 2. Add USB / Removable Storage Restrictions
+## 2. Add USB / Removable Storage Restrictions
 
 I click **Add settings** and search for: Removable Storage Access
 
