@@ -141,7 +141,7 @@ Ensures a secure and consistent Edge experience.
 ## 9. Windows Device Restriction Policies
 
 **Documentation:**  
-[08-windows-device-restriction-policies.md](../docs/08-windows-device-restriction-policies.md)
+[08-windows-device-restriction-policies.md](../docs/08–windows-device-restriction-policies.md)
 
 Configured advanced restriction settings:
 
