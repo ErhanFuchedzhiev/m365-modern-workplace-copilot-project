@@ -86,7 +86,7 @@ If detected as spoof by spoof intelligence
 
 ## 2. My Anti-Spam Inbound Policy
 
-===
+---
 
 ### 2.1 Create Policy
 
