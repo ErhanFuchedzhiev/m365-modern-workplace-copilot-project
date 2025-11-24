@@ -1,17 +1,18 @@
 # 09 – SharePoint Information Architecture
-Modern SharePoint Hub Design for a Structured Digital Workplace
 
-In this part of my Modern Workplace project, I built the SharePoint Online Information Architecture (IA) that will support all document management, collaboration, governance, and future migration activities.
-This includes creation of the Intranet hub, department sites, hub association, and establishing a scalable structure aligned with Microsoft 365 best practices.
-This article summarizes the full workflow and links to screenshots used throughout the build.
+## Modern SharePoint Hub Design for a Structured Digital Workplace
+
+In this part of my Modern Workplace project, I designed and built my SharePoint Online Information Architecture (IA), which now serves as the foundation for all collaboration, governance, document lifecycle, and future migration activities.
+I created my Intranet hub, deployed all departmental sites, associated them to the hub, and established a scalable, Copilot-ready structure aligned with Microsoft 365 best practices.
+This article walks through each step of the process and includes screenshots of my configuration.
 
 ---
 
 ## 1. Creating the Intranet Communication Site
 
-I started by creating the main Intranet site, which acts as the central communication hub for the entire organization.
+I began by creating my Intranet communication site.
 
-This site will provide:
+This site acts as the central hub for my entire organization and provides:
 
 - Company-wide news
 - Corporate resources
@@ -19,7 +20,7 @@ This site will provide:
 - Central branding
 - Unified search
 
-After creation, the Intranet site appears in Active sites. 
+Once created, the Intranet appeared in my Active Sites list.
 
 ![Validation Passed](../images/55.sharepoint-site-creation.png)
 
@@ -27,10 +28,10 @@ After creation, the Intranet site appears in Active sites.
 
 ## 2. Creating All Department Sites
 
-After creating the hub, I deployed a set of Team Sites for each department.
-Each site was created as Private, following least-privilege and zero-trust principles.
+After the Intranet was in place, I created a dedicated Team Site for each department.
+I configured every site as Private, following least-privilege and zero-trust principles.
 
-Departments created:
+The department sites I created include:
 
 - Human Resources
 - Finance
@@ -41,7 +42,7 @@ Departments created:
 - Projects
 - Learning & Development
 
-These represent the core content containers for future document migration.
+These sites now act as the primary containers for all departmental files and future migration activities.
 
 ![Validation Passed](../images/56.sharepoint-active-sites-creation.png)
 
@@ -49,9 +50,9 @@ These represent the core content containers for future document migration.
 
 ## 3. Registering the Intranet as a Hub Site
 
-Next, I registered the Intranet as a Hub Site so it can serve as the root of the SharePoint hierarchy.
+Next, I registered my Intranet as a Hub Site, allowing it to serve as the root of my SharePoint hierarchy.
 
-This enables:
+Registering the hub instantly enables:
 
 - Hub navigation
 - Branding inheritance
@@ -68,9 +69,9 @@ Consistent experience across all departments.
 
 ## 4. Associating Each Department Site With the Intranet Hub
 
-Once all department sites were created, I associated every site to the Intranet Hub.
+Once all department sites were created, I associated each one with my Intranet Hub.
 
-This delivers:
+This step provided:
 
 - Shared navigation
 - Consistent branding
@@ -78,7 +79,7 @@ This delivers:
 - Logical site hierarchy
 - Improved search experience
 
-Association was applied in bulk.
+I applied these associations in bulk for efficiency.
 
 ![Validation Passed](../images/58.each-folder-hub-association.png)
 
@@ -86,9 +87,9 @@ Association was applied in bulk.
 
 ## 5. Final Verification – All Sites Connected to the Hub
 
-After completing the association, the Hub column now shows Intranet for every department site.
+After completing the associations, I verified that the Hub column for every department site correctly showed Intranet.
 
-This confirms the Information Architecture is properly aligned.
+This confirmed that my Information Architecture is aligned, structured, and ready for content migration.
 
 ![Validation Passed](../images/59.all-site-intranet-completed.png)
 
@@ -115,5 +116,5 @@ This structure now serves as the foundation for:
 - Copilot document exposure control
 - Organizational knowledge structure
 
-My IA is now modern, secure, scalable, and ready for the next steps of the Modern Workplace project.
+My SharePoint IA is now modern, secure, scalable, and fully aligned for the next steps of my Modern Workplace project.
 
