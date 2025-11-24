@@ -17,7 +17,7 @@ I began by opening SharePoint Admin Center → Policies → Sharing and configur
 
 My focus was to enforce a secure external sharing posture without blocking legitimate collaboration.
 
-External Sharing Settings I Applied
+External Sharing Settings I Applied:
 
 - SharePoint: New and Existing Guests
 - OneDrive: New and Existing Guests
