@@ -261,6 +261,12 @@ Settings
 
 ---
 
+## 9. **Related reading**
+   - For stronger governance and to ensure Teams creation remains controlled, I’ve also documented how I restrict Microsoft 365 Group creation. Since every Team creates an M365 Group, this is an important foundational step.
+   - See also: [01-restrict-m365-group-creation.md](../scripts/01-restrict-m365-group-creation.md)
+     
+---
+
 These security baselines configured, Teams is now governed, secure, and aligned with Microsoft 365 modern workplace best practices. These configurations ensure:
 
 - Secure external collaboration
