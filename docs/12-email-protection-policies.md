@@ -200,7 +200,7 @@ Blocked
 
 I choose: Use default notification text
 
-![Validation Passed](../images/94.notification.pn) 
+![Validation Passed](../images/94.notification.png) 
 
 ## 5. Final Review & Recommendations
 
