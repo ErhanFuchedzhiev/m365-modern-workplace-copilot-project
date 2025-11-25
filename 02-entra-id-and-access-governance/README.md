@@ -53,3 +53,4 @@ Then, I created my own Conditional Access baseline to meet the requirements of m
 These policies give me a Zero Trust foundation for the rest of my Modern Workplace environment.
 
 ![Validation Passed](../images/02.Policies.png)
+
