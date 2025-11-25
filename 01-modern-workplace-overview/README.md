@@ -63,3 +63,4 @@ For this project I assume:
 - I have permissions to configure Exchange Online, SharePoint, OneDrive, Teams, Purview, and Defender.
 
 In the next sections, I go deeper into each area and show the decisions, policies, and examples I use to build a real Modern Workplace environment.
+
