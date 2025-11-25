@@ -14,4 +14,4 @@ Purpose:
 - Classify and protect sensitive data across Microsoft 365 using encryption, visual markings, and access restrictions.
 - I created my own classification framework, published a label policy, and applied labels to email and documents.
 
-Full article: https://github.com/ErhanFuchedzhiev/m365-modern-workplace-copilot-project/blob/main/docs/14-purview-compliance-and-data-protection.md
+
