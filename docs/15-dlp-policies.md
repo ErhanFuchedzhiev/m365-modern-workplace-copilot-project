@@ -6,7 +6,7 @@ This policy is focused specifically on detecting **Credit Card Numbers** and blo
 
 ---
 
-## ## 1. Purpose
+## 1. Purpose
 
 I use DLP policies to:
 
@@ -20,7 +20,7 @@ This policy protects my environment from financial data loss and meets the compl
 
 ---
 
-## ## 2. Creating the DLP Policy
+## 2. Creating the DLP Policy
 
 From the Microsoft Purview portal:
 
@@ -37,7 +37,7 @@ This includes Exchange, SharePoint, OneDrive, Teams, and Microsoft Copilot exper
 
 ---
 
-## ## 3. Start with a Custom DLP Policy
+## 3. Start with a Custom DLP Policy
 
 Since I needed full control, I selected:
 
@@ -48,7 +48,7 @@ Since I needed full control, I selected:
 
 ---
 
-## ## 4. Name & Describe the Policy
+## 4. Name & Describe the Policy
 
 **Name:**  
 **Outbound Data Protection Policy**
@@ -60,12 +60,12 @@ This policy helps me protect sensitive information by detecting specific data ty
 
 ---
 
-## ## 5. Choose Admin Units  
+## 5. Choose Admin Units  
 I selected the default configuration for the entire organization.
 
 ---
 
-## ## 6. Choose Locations
+## 6. Choose Locations
 
 I applied this policy across my full Microsoft 365 estate:
 
@@ -81,7 +81,7 @@ Copilot and unmanaged cloud apps were left unchecked.
 
 ---
 
-## ## 7. Policy Settings  
+## 7. Policy Settings  
 I chose the option:
 
 **Create or customize advanced DLP rules**
@@ -91,7 +91,7 @@ I chose the option:
 
 ---
 
-## ## 8. Configuring the DLP Rule  
+## 8. Configuring the DLP Rule  
 I created a custom rule with the following settings:
 
 ---
@@ -104,7 +104,7 @@ I use this rule to block external sharing of financial information such as credi
 
 ---
 
-## ### 8.1 Conditions  
+## 8.1 Conditions  
 I configured the policy to detect:
 
 **Sensitive Info Types:**  
@@ -121,7 +121,7 @@ Trigger when content is shared:
 
 ---
 
-## ### 8.2 Actions  
+## 8.2 Actions  
 I configured the rule to:
 
 ### **Block external sharing**
@@ -134,7 +134,7 @@ This applies to:
 
 ---
 
-## ### 8.3 User Notifications  
+## 8.3 User Notifications  
 I enabled:
 
 Notify the user who triggered the rule  
@@ -144,7 +144,7 @@ This educates users on proper handling of sensitive information.
 
 ---
 
-## ### 8.4 User Overrides  
+## 8.4 User Overrides  
 I enabled:
 
 ✔ Allow overrides with justification  
