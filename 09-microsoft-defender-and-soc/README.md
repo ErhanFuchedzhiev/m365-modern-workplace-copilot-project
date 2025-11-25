@@ -90,8 +90,6 @@ The default policy applies to all users and is active.
 
 ![Validation Passed](../images/129.anti-phishing.png)
 
-Although advanced features require higher licensing, the core policy is still effective for small environments.
-
 ---
 
 ## 6. Summary
