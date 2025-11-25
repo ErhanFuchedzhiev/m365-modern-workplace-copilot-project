@@ -121,12 +121,50 @@ Configuration Steps
 
 ---
 
+###  4. Outbound Message Encryption
+
+Purpose
+
+This rule automatically encrypts outbound messages sent to external recipients using Office 365 Message Encryption (OME).  
+It ensures secure delivery of sensitive information outside the organization.
+
+Configuration Steps
+
+### 4.1 Set Rule Conditions
+
+- Apply this rule if:  
+  - The recipient → is external/internal  
+  - Location: NotInOrganization  
+
+- Do the following:  
+  - Modify the message security → Apply Office 365 Message Encryption and rights protection  
+  - Rights protect message with: Encrypt  
+
+- Except if:  
+  - The recipient → is external/internal  
+  - Location: InOrganization  
+
+![Validation Passed](../images/101.outbound-message-encryption.png)
+
+---
+
+### 4.2 Set Rule Settings
+
+- Rule mode: Enforce  
+- Activate this rule on: 11/25/2025 – Time: 11:00 AM  
+- Stop processing more rules: Enabled  
+- Match sender address in message: Header  
+- Comments: Outbound encryption rule for external recipients.  
+
+![Validation Passed](../images/102.set-rule-settings.png)
+
 ## Summary
 
 In this article, I created three Exchange Online transport rules:
 
-| Rule Name                              | Purpose                                           |
-| -------------------------------------- | ------------------------------------------------- |
-| **Outbound Sensitive Data Encryption** | Automatically encrypt sensitive outbound messages |
-| **Outbound Sensitive Tagging**         | Tag emails containing sensitive keywords          |
-| **External Email Warning Banner**      | Add awareness disclaimers for external senders    |
+| Rule Name                              | Purpose                                                        |
+| -------------------------------------- | -------------------------------------------------------------- |
+| **Outbound Sensitive Data Encryption** | Automatically encrypt sensitive outbound messages             |
+| **Outbound Sensitive Tagging**         | Tag emails containing sensitive keywords                       |
+| **External Email Warning Banner**      | Add awareness disclaimers for external senders                 |
+| **Outbound Message Encryption**        | Encrypt outbound emails sent to external recipients using OME |
