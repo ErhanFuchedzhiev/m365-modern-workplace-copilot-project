@@ -36,16 +36,7 @@ I created a custom DLP policy to prevent sharing of financial information, speci
 
 ---
 
-## 03. Insider Risk Management *(informational only)*  
-Insider Risk requires additional E5 add-on licensing.  
-I did not enable it, but I documented its purpose and how organizations typically use it.
-
-**Overview only (included in main Purview doc):**  
-[14-purview-compliance-and-data-protection.md](../docs/14-purview-compliance-and-data-protection.md)
-
----
-
-## 04. Retention & Records Management  
+## 03. Retention & Records Management  
 I created a retention policy that keeps Exchange, SharePoint, and OneDrive data for **7 years** and then automatically deletes it.  
 This supports compliance and efficient long-term storage management.
 
@@ -54,7 +45,7 @@ This supports compliance and efficient long-term storage management.
 
 ---
 
-## 05. eDiscovery & Audit  
+## 04. eDiscovery & Audit  
 I created an eDiscovery case and performed searches across multiple workloads.  
 I also used the Audit tool to review user/admin activities within a custom time range.
 
@@ -63,16 +54,7 @@ I also used the Audit tool to review user/admin activities within a custom time 
 
 ---
 
-## 06. Compliance Manager *(informational only)*  
-Compliance Manager provides compliance assessments and a compliance score for regulatory frameworks.  
-I reviewed the dashboard and documented its purpose without configuring assessments.
-
-**Overview only (included in main Purview doc):**  
-[14-purview-compliance-and-data-protection.md](../docs/14-purview-compliance-and-data-protection.md)
-
----
-
-## 07. Exchange Online Archiving  
+## 05. Exchange Online Archiving  
 I enabled archive mailboxes and created an auto-archive retention policy that moves items older than **2 years** into the archive mailbox.
 
 **Full configuration:**  
@@ -89,10 +71,8 @@ In this stage of my Modern Workplace & Copilot project, I implemented and docume
 |--------|---------|--------|
 | **Sensitivity Labels** | Classify & protect data | Configured |
 | **DLP Policies** | Prevent leakage of sensitive information | Configured |
-| **Insider Risk Management** | Detect risky behavior | ℹ Documented only |
 | **Retention Policies** | Automate long-term retention & deletion | Configured |
 | **eDiscovery & Audit** | Search, investigate, and review logs | Configured |
-| **Compliance Manager** | Assess compliance maturity | ℹ Documented only |
 | **Exchange Archiving** | Improve mailbox storage & retention | Configured |
 
 This completes the **Microsoft Purview: Compliance & Data Protection** stage of my Modern Workplace & Copilot deployment.
