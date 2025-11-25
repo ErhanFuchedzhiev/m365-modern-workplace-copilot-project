@@ -13,7 +13,7 @@ I configured sensitivity labels to classify and protect documents and emails acr
 This included creating labels, defining encryption and content marking rules, and publishing label policies so users can apply them in Office apps.
 
 **Read the full configuration:**  
-[01-sensitivity-labels.md](../docs/14-sensitivity-labels.md)
+[01-sensitivity-labels.md](../docs/08-purview-compliance-and-data-protection)
 
 ---
 
