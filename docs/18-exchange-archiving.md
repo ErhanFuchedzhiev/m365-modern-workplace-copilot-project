@@ -1,4 +1,4 @@
-# 08. Exchange Online Archiving
+# 18. Exchange Online Archiving
 
 Microsoft Purview – Exchange Data Lifecycle Management
 
@@ -48,8 +48,6 @@ I went to: Microsoft Purview → Data Lifecycle Management → Retention Policie
 ## 2.3 Choose Locations
 
 - I applied this policy only to: Exchange mailboxes and left everything else unchecked.
-
-![Validation Passed](../images/123.location.png)
 
 ---
 
