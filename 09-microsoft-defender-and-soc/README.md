@@ -69,9 +69,6 @@ The two major categories available are:
 
 The default anti-malware policy is enabled and always active. It scans inbound and outbound email for malicious content and applies attachment filtering.
 
-Screenshot: Anti-malware policy
-(as included in the project)
-
 Key points:
 
 - “Always On”
@@ -85,11 +82,9 @@ Key points:
 
 Anti-phishing policies defend against:
 
-User impersonation
-
-Domain spoofing
-
-High-confidence phishing attempts
+- User impersonation
+- Domain spoofing
+- High-confidence phishing attempts
 
 The default policy applies to all users and is active.
 
