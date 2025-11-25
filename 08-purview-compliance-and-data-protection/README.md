@@ -1,96 +1,98 @@
 # 08 – Microsoft Purview: Compliance & Data Protection
 
-In this part of my modern workplace project, I configured Microsoft Purview to protect my organization’s data, meet compliance requirements, and ensure secure information governance across Microsoft 365.  
+In this part of my Modern Workplace & Copilot project, I configured Microsoft Purview to protect my organization’s data, meet compliance requirements, and ensure secure information governance across Microsoft 365.
 
-I used Microsoft Purview to implement **sensitivity labeling, data loss prevention, retention, eDiscovery, auditing, and mailbox archiving**.  
-Each section below includes a short overview and a link to the full technical configuration steps documented in my project.
+I used Microsoft Purview to implement:
+
+- Sensitivity labeling  
+- Data Loss Prevention (DLP)  
+- Retention & records management  
+- eDiscovery & Audit  
+- Exchange Online Archiving  
+
+Some additional features (Insider Risk Management, Compliance Manager) are documented for awareness but not configured due to licensing requirements.
 
 ---
 
-## 01. Sensitivity Labels
-
+## 01. Sensitivity Labels  
 I configured sensitivity labels to classify and protect documents and emails across Microsoft 365.  
-This included creating labels, defining encryption and content marking rules, and publishing label policies so users can apply them in Office apps.
+This includes encryption settings, content marking, and publishing label policies to users.
 
-**Read the full configuration:**  
-**[14-purview-compliance-and-data-protection.md](../docs/14-purview-compliance-and-data-protection.md)**
-
----
-
-## 02. Data Loss Prevention (DLP)
-
-I created a custom DLP policy focused on protecting **financial information**, specifically **credit card numbers**.  
-My DLP policies monitor and prevent sensitive information from being shared outside the organization across Exchange, SharePoint, OneDrive, and Teams.
-
-**Read the full configuration:**  
-[03-dlp-policies.md](../docs/15-dlp-policies.md)
+**Full configuration:**  
+[14-purview-compliance-and-data-protection.md](../docs/14-purview-compliance-and-data-protection.md)
 
 ---
 
-## 03. Insider Risk Management *(informational only)*
+## 02. Data Loss Prevention (DLP)  
+I created a custom DLP policy to prevent sharing of financial information, specifically **credit card numbers**, across:
 
-Insider risk requires an E3/E5 add-on license, so I did not enable the feature.  
-Instead, I documented how Insider Risk Management works and where it fits into a real production environment.
+- Exchange Online  
+- SharePoint Online  
+- OneDrive for Business  
+- Microsoft Teams  
 
-**Overview and notes:**  
-[04-insider-risk.md](../docs/16-insider-risk.md)
-
----
-
-## 04. Retention & Records Management
-
-I created a retention policy that keeps Exchange, SharePoint, and OneDrive content for **7 years**, then automatically deletes it.  
-This helps me meet compliance standards and maintain clean data storage across Microsoft 365.
-
-**Read the full configuration:**  
-[05-retention-records.md](../docs/17-retention-records.md)
+**Full configuration:**  
+[15-dlp-policies.md](../docs/15-dlp-policies.md)
 
 ---
 
-## 05. eDiscovery & Audit
+## 03. Insider Risk Management *(informational only)*  
+Insider Risk requires additional E5 add-on licensing.  
+I did not enable it, but I documented its purpose and how organizations typically use it.
 
-I created an **eDiscovery case** to simulate an internal investigation and performed searches across Exchange, SharePoint, OneDrive, and Teams.  
-Additionally, I used **Audit** to review user and admin activities with custom search criteria.
-
-**Read the full configuration:**  
-[06-ediscovery-and-audit.md](../docs/18-ediscovery-and-audit.md)
-
----
-
-## 06. Compliance Manager *(informational only)*
-
-Compliance Manager provides score-based compliance assessments.  
-In my project, I documented its purpose and how organizations typically use it, without configuring full assessments or improvement actions.
-
-**Overview and notes:**  
-[07-compliance-manager.md](../docs/19-compliance-manager.md)
+**Overview only (included in main Purview doc):**  
+[14-purview-compliance-and-data-protection.md](../docs/14-purview-compliance-and-data-protection.md)
 
 ---
 
-## 07. Exchange Online Archiving (Auto-Archive Mailboxes)
+## 04. Retention & Records Management  
+I created a retention policy that keeps Exchange, SharePoint, and OneDrive data for **7 years** and then automatically deletes it.  
+This supports compliance and efficient long-term storage management.
 
-I enabled mailbox archiving for my user and created a retention policy that automatically moves items older than 2 years to the archive mailbox.  
-This helps maintain mailbox size limits and improves long-term email management.
+**Full configuration:**  
+[16-retention-policy.md](../docs/16-retention-policy.md)
 
-**Read the full configuration:**  
-[08-exchange-archiving.md](../docs/20-exchange-archiving.md)
+---
+
+## 05. eDiscovery & Audit  
+I created an eDiscovery case and performed searches across multiple workloads.  
+I also used the Audit tool to review user/admin activities within a custom time range.
+
+**Full configuration:**  
+[17-ediscovery-and-audit.md](../docs/17-ediscovery-and-audit.md)
+
+---
+
+## 06. Compliance Manager *(informational only)*  
+Compliance Manager provides compliance assessments and a compliance score for regulatory frameworks.  
+I reviewed the dashboard and documented its purpose without configuring assessments.
+
+**Overview only (included in main Purview doc):**  
+[14-purview-compliance-and-data-protection.md](../docs/14-purview-compliance-and-data-protection.md)
+
+---
+
+## 07. Exchange Online Archiving  
+I enabled archive mailboxes and created an auto-archive retention policy that moves items older than **2 years** into the archive mailbox.
+
+**Full configuration:**  
+[18-exchange-archiving.md](../docs/18-exchange-archiving.md)
 
 ---
 
 # Summary
 
-Microsoft Purview plays a major role in securing and governing information across Microsoft 365.  
-In this part of my project, I implemented and documented:
+Microsoft Purview provides enterprise-grade data protection and compliance capabilities.  
+In this stage of my Modern Workplace & Copilot project, I implemented and documented:
 
-| Area | Purpose | Status |
-|------|---------|--------|
+| Feature | Purpose | Status |
+|--------|---------|--------|
 | **Sensitivity Labels** | Classify & protect data | Configured |
-| **DLP Policies** | Prevent sharing sensitive data | Configured |
-| **Insider Risk** | Detect risky activity | Documented only |
-| **Retention & Records** | Keep/delete content for compliance | Configured |
-| **eDiscovery & Audit** | Investigate and review user actions | Configured |
-| **Compliance Manager** | Assess compliance posture | Documented only |
-| **Mailbox Archiving** | Manage long-term email storage | Configured |
+| **DLP Policies** | Prevent leakage of sensitive information | Configured |
+| **Insider Risk Management** | Detect risky behavior | ℹ Documented only |
+| **Retention Policies** | Automate long-term retention & deletion | Configured |
+| **eDiscovery & Audit** | Search, investigate, and review logs | Configured |
+| **Compliance Manager** | Assess compliance maturity | ℹ Documented only |
+| **Exchange Archiving** | Improve mailbox storage & retention | Configured |
 
-This completes the Purview portion of my Modern Workplace & Copilot deployment.
-
+This completes the **Microsoft Purview: Compliance & Data Protection** stage of my Modern Workplace & Copilot deployment.
