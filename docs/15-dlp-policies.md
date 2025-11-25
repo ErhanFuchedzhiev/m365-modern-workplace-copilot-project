@@ -147,7 +147,7 @@ This educates users on proper handling of sensitive information.
 ## 8.4 User Overrides  
 I enabled:
 
-✔ Allow overrides with justification  
-✔ Auto-resolve if
+- Allow overrides with justification  
+- Auto-resolve if
 
 ![Validation Passed](../images/113.2.create-rule.png)
