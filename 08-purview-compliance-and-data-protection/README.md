@@ -13,7 +13,7 @@ I configured sensitivity labels to classify and protect documents and emails acr
 This included creating labels, defining encryption and content marking rules, and publishing label policies so users can apply them in Office apps.
 
 **Read the full configuration:**  
-**[14-purview-compliance-and-data-protection.md]([https://github.com/ErhanFuchedzhiev/m365-modern-workplace-copilot-project/blob/main/docs/12-email-protection-policies.md](https://github.com/ErhanFuchedzhiev/m365-modern-workplace-copilot-project/blob/main/docs/14-purview-compliance-and-data-protection.md))**
+**[14-purview-compliance-and-data-protection.md](https://github.com/ErhanFuchedzhiev/m365-modern-workplace-copilot-project/blob/main/docs/12-email-protection-policies.md](https://github.com/ErhanFuchedzhiev/m365-modern-workplace-copilot-project/blob/main/docs/14-purview-compliance-and-data-protection.md)**
 
 ---
 
