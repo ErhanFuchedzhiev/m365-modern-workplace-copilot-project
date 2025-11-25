@@ -170,4 +170,3 @@ With all steps completed, my Modern Workplace baseline now includes:
 - Device restriction policies  
 
 This creates a **secure, cloud-managed, automated, and scalable Windows management environment** aligned with Microsoft 365 best practices.
-
