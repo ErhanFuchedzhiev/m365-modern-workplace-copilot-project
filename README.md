@@ -16,5 +16,5 @@ Across each chapter of this project, I explain how I:
 • Understand core networking, DNS, mail routing and protocols required by Microsoft 365  
 • Prepare the organisation for Microsoft 365 Copilot through readiness assessments, governance controls, licensing, security requirements and rollout strategy  
 
-This repository represents how I architect, secure and operate a full Microsoft 365 Modern Workplace environment end-to-end — including identity, devices, apps, collaboration, email, security, compliance and Copilot governance.
+This repository represents how I design, secure and operate a full Microsoft 365 Modern Workplace environment end-to-end — including identity, devices, apps, collaboration, email, security, compliance and Copilot governance.
 
